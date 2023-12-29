@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class SumOfIntegers {
     public static void main(String[] args) {
-                int sum = 0;
+        int sum = 0;
         int totalNumbers = Integer.parseInt(args[0]);
 
         Scanner scanner = new Scanner(System.in);

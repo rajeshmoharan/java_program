@@ -1,6 +1,6 @@
  import java.util.*;
 
-//class Distance to read, print and add distance
+// class Distance to read, print and add distance
 class Distance {
    int feet;
    int inches;
@@ -22,6 +22,7 @@ class Distance {
     feet = D1.feet + D2.feet + (inches / 12);
     inches = inches % 12;
   }
+
 }
 
 public class DistanceM {
@@ -31,19 +32,20 @@ public class DistanceM {
       Distance D2 = new Distance();
       Distance D3 = new Distance();
 
-      //read first distance
+     
       System.out.println("Enter first distance: ");
       D1.getDistance();
 
-      //read second distance
+
       System.out.println("Enter second distance: ");
       D2.getDistance();
 
-      //add distances
+    
       D3.addDistance(D1, D2);
-      //print distance
+    
+      
       System.out.println("Total distance is:");
       D3.showDistance();
-    
+  
   }
 }
